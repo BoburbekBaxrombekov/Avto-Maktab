@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>АВТО ДРАЙВ</title>
+	<link
+		href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900&display=swap&subset=cyrillic"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<!-- -- fontawesome -- -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+	<link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+	<div id="top">
+		<div class="container">
+			<div class="row">
+				<div class="col-6 col-lg-4 box1">
+					<h3><i class="fas fa-map-marker"></i>Toshkent Yunusobod</h3>
+				</div>
+				<div class="col-6 col-lg-4 box2">
+					<h3><i class="fas fa-phone-alt"></i>+998994851027</h3>
+				</div>
+				<div class="col-6 col-lg-4 box3 d-none d-lg-flex">
+					<div class="dropdown">
+						<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Русский
+						</button>
+						<div class="dropdown-menu  dropdown-menu-right" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="#">
+								<p>Русский</p>
+								<img src="img/1.Blog/Flag.png" alt="" class="flag">
+							</a>
+							<a class="dropdown-item" href="#">
+								<p>O'zbekcha</p>
+								<img src="img/1.Blog/Flag2.png" alt="" class="flag2">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<header id="header">
+		<div class="container">
+			<a href="#" class="logo">
+				Logo
+				<!-- <img src="img/1.Blog/logo.png" alt="logo"> -->
+			</a>
+			<div class="d-lg-none baricon"><i class="fas fa-align-right" id="bariconi"></i></div>
+			<ul class="menu  d-lg-flex">
+				<li><a href="/" onclick="toscroll('top'); return false;">Главная</a></li>
+				<li><a href="/" onclick="toscroll('reading'); return false;">О нас</a></li>
+				<li><a href="/" onclick="toscroll('hover-boxes'); return false;">Преимущества</a></li>
+				<li><a href="/" onclick="toscroll('sliders'); return false;">Курсы</a></li>
+				<li><a href="/" onclick="toscroll('registration'); return false;">Записаться</a></li>
+				<li><a href="/" onclick="toscroll('drop-downs'); return false;">FAQ</a></li>
+				<li><a href="/" onclick="toscroll('top'); return false;">Контакты</a></li>
+			</ul>
+		</div>
+	</header>
+	<section id="welcome" class="mysection">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-11">
+					<h2>ОНЛАЙН ПОДАЧА ДОКУМЕНТОВ И ЗАПИСЬ В ГРУППЫ ДЛЯ ПОЛУЧЕНИЕ ВОДИТЕЛЬСКИХ ПРАВ ВПЕРВЫЕ В <span
+							class="yellow-txt">ТАШКЕНТЕ!</span></h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-7">
+					<p class="paragraph">Вам не обязательно приезжать для записи в автошколу, мы сделаем, обучим и
+						поможем Вам
+						онлайн!</p>
+				</div>
+			</div>
+			<a href="#" class="btn mybtn">
+				<div class="mycenter">
+					<p>Записаться в школу</p>
+					<div class="icon-btn"><i class="fas fa-chevron-right"></i></div>
+				</div>
+			</a>
+		</div>
+	</section>
+	<section id="about">
+		<div class="container">
+			<div class="aboutbody">
+				<div class="row">
+					<div class="col-md-6 offset-md-3">
+						<h6 class="title">Наши достижения</h6>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 mycenter mt-3 mt-lg-0">
+						<img src="img/Нашидостижения/sales.png" alt="">
+						<p>6 лет опыта</p>
+					</div>
+					<div class="col-lg-4 mycenter mt-3 mt-lg-0">
+						<img src="img/Нашидостижения/graduation.png" class="secondicon" alt="">
+						<p>200 выпускников</p>
+					</div>
+					<div class="col-lg-4 mycenter mt-3 mt-lg-0">
+						<img src="img/Нашидостижения/result.png" alt="">
+						<p>90% результатов</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="reading">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-6 p-0 p-md-5 p-lg-0 mycenter">
+					<img class="photo" src="img/2.Blog/blog2img.png" alt="Blog">
+				</div>
+				<div class="col-lg-6 mycenter">
+					<div class="my-5 px-4">
+						<h6 class="text-center text-lg-left">АВТОШКОЛА "Name"</h6>
+						<p class="words mr-lg-5">Автошкола "Name" работает на рынке услуг по
+							обучению вождению уже более 5 лет.
+							У нас работают квалифицированные инструкторы,
+							которие не только обучат Вас для того чтобы Вы сдали
+							экзамен ГИБДД и получили права но и помогут Вам в
+							том, чтобы в дальнейшем Вы чувствовали себя на
+							дорогах уверенно, не боялись садиться за руль.
+							Наши преподаватели найдут грамотный подход к
+							проведению занятий для водителей любого возраста и
+							пола.Сами занятия по вождению проводится с личным инструктором в удобное для ученика
+							время.
+							Программа обучения в школе "Name" уже проверена
+							и подтверждает эффективность нашими выпускниками.
+						</p>
+						<!-- <div class="text-center text-lg-left">
+							<a href="#" class="btn mybtn ">
+								<div class="mycenter">
+									<p>Больше информации</p>
+									<div class="icon-btn"><i class="fas fa-chevron-right"></i></div>
+								</div>
+							</a>
+						</div> -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="hover-boxes" class="mysection2">
+		<div class="container">
+			<h2 class="title">ПОЧЕМУ ОБУЧАТСЯ СТОИТ ИМЕННО У НАС</h2>
+			<div class="under-border"></div>
+			<div class="row advatantage-block">
+				<div class="col-sm-6 col-md-4">
+					<div class="block">
+						<img src="img/3.Blog/icon1.png" alt="Advantage1">
+						<hr>
+						<p>Вождение в любое
+							удобное для Вас время
+							без дополнительных
+							плат</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="block">
+						<img src="img/3.Blog/discount.svg" alt="Advantage1">
+						<hr>
+						<p>Самые низкие и честные цены в городе</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="block">
+						<img src="img/3.Blog/hand-sanitizer.svg" alt="Advantage1">
+						<hr>
+						<p>Занятия по медицинским и юридическим основам</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="block">
+						<img src="img/3.Blog/surface1.svg" alt="Advantage1">
+						<hr>
+						<p>Автопарк состоит из современных автомобилей не старше 6 лет</p>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<div class="block">
+						<img src="img/3.Blog/refund.svg" alt="Advantage1">
+						<hr>
+						<p>Гарантия возврата платежа если Вас не устроит результат обучения</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="sliders" class="mysection2">
+		<div class="container">
+			<h2 class="title">ПОМОШЬ В ОФОРМЛЕНИИ И ПОЛУЧЕНИИ ВОДИТЕЛЬСКОГО УДОСТОВЕРЕНИЯ ЛЮБИХ КАТЕГОРИЙ</h2>
+			<div class="under-border"></div>
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<h6>Права категории А</h6>
+						<div class="under-border"></div>
+						<p>Согласно первого приложения к 156 постановлению Кабинета Министров РУз, для получения
+							водительского удостоверения категории "А" не обязательно учиться в автошколе. Можно
+							самостоятельно подготовится и сразу сдавать экзамен в ГАИ. У нас в автошколе вы можете
+							получить 100% подготовку для того чтобы Вы могли сдать экзамен для получения прав с первого
+							раза. Данные права нужны для вождения мотоциклов и мотоциклов с коляской - с массой до 400
+							кг.<br>
+							Стоимость полного обучения – 550.000 сум. 500.000 сум</p>
+						<a href="#" class="btn button-in-slider">Записаться</a>
+					</div>
+
+					<div class="swiper-slide">
+						<h6>Права категории B</h6>
+						<div class="under-border"></div>
+						<p>Категория B - позволяют управлять легковыми автомобилями, джипами, микроавтобусами и
+							небольшими грузовиками. Сюда входят все легковые автомобили массой до 3,5 т. и грузовые
+							автомобили массой до 12 т. Мы можем обучить вождению как на механической коробке так и на
+							автоматической коробке передач.<br>
+							Срок обучения: 2,5 месяца<br>
+							Теория ПДД, техники и первой медицинской помощи<br>
+							Практические занятия: 52 часа<br>
+							Стоимость полного обучения – Старую цену зачеркнуть 1.850.000 сум. <br>
+							Новая цена 1.550.00 сум</p>
+						<a href="#" class="btn button-in-slider">Записаться</a>
+					</div>
+
+					<div class="swiper-slide">
+						<h6>Права категории C</h6>
+						<div class="under-border"></div>
+						<p>
+							Категория C - позволяют управлять грузовыми автомобилями максимальной массой - более 3,5 т ,
+							с прицепом массой не более 750 кг. <br>
+							Стоимость полного обучения – Старая цену зачеркнуть 1.150.000 сум. <br>
+							Новая цена 1.000.000 сум
+						</p>
+						<a href="#" class="btn button-in-slider">Записаться</a>
+					</div>
+
+					<div class="swiper-slide">
+						<h6>Права категории D</h6>
+						<div class="under-border"></div>
+						<p>
+							Категория D - позволяют управлять автобусами, предназначенными для перевозки пассажиров,
+							имеющие более восьми восьми сидячих мест но не более шестнадцати, помимо сиденья
+							водителя. <br>
+							Стоимость полного обучения - 2.200.000 сум. <br>
+							Новая цена 2.100.000 сум
+						</p>
+						<a href="#" class="btn button-in-slider">Записаться</a>
+					</div>
+
+					<div class="swiper-slide">
+						<h6>Права категории E</h6>
+						<div class="under-border"></div>
+						<p>
+							Права категории E
+							Буква E означает что водитель может управлять транспортным средством с прицепом (или
+							полуприцепом) Управления автомобилем с прицепом более сложный и опасный вид вождения, чем
+							вождение обычной легковушки. Поэтому, чтобы получить категорию E Вы должны иметь должный
+							водительский стаж и достичь определенного возраста<br>
+							BE - возраст 18 - стаж 12 месяцев по категории B<br>
+							CE - возраст 18 - стаж 12 месяцев по категории C<br>
+							DE - возраст 21 - стаж 12 месяцев по категории D <br>
+							Стоимость полного обучения - 1.100.000 сум
+						</p>
+						<a href="#" class="btn button-in-slider">Записаться</a>
+					</div>
+				</div>
+				<!-- If we need navigation buttons -->
+				<div class="swiper-button-prev prev"></div>
+				<div class="swiper-button-next next"></div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+	</section>
+	<section id="needing" class="mysection2">
+		<div class="container">
+			<h4 class="title">НЕОБХОДИМЫЕ ДОКУМЕНТЫ</h4>
+			<div class="under-border"></div>
+			<h6>Вы можете направить документы не выходя из дома! через мессенджеры: telegram, imo, whatsapp!</h6>
+			<div class="row">
+				<div class="col-sm-6 col-md-3 needing-block1">
+					<img src="img/5.Blog/document.png" alt="">
+					<h3>Медицинская справка</h3>
+					<h4>Справка формы 083 о состоянии здоровья</h4>
+				</div>
+				<div class="col-sm-6 col-md-3 needing-block2">
+					<img src="img/5.Blog/copy.png" alt="">
+					<h3>Ксерокопия паспорта</h3>
+					<h4>Ксерокопия паспорта с пропиской</h4>
+				</div>
+				<div class="col-sm-6 col-md-3 needing-block3">
+					<img src="img/5.Blog/surface1.png" alt="">
+					<h3>Фото 3х4</h3>
+					<h4>Фотографии размером 3x4 (4шт)</h4>
+				</div>
+				<div class="col-sm-6 col-md-3 needing-block4">
+					<img src="img/5.Blog/portable.png" alt="">
+					<h3>Копия диплома</h3>
+					<h4>Или справка с места учебы, для студентов колледей и ВУЗов</h4>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="registration" class="mysection2">
+		<div class="container">
+			<h2 class="title">ОСТАВЬТЕ ЗАЯВКУ ПРЯМО СЕЙЧАС И ПОЛУЧИТЕ 10% СКИДКУ НА ВСЕ ВИДЫ ОБУЧЕНИЯ!</h2>
+			<div class="under-border"></div>
+			<div class="row">
+				<div class="col-md-8 offset-md-2">
+					<form action="">
+						<div class="inputdiv">
+							<img src="img/6.Blog/user.png" alt="">
+							<input type="text" placeholder="Ochilov Sardor" required>
+						</div>
+						<div class="inputdiv">
+							<img src="img/6.Blog/email.png" alt="">
+							<input type="email" placeholder="Example@gmail.ru" required>
+						</div>
+						<div class="inputdiv">
+							<img src="img/6.Blog/call.png" alt="">
+							<input type="text" placeholder="+998 90 123 45 67" required>
+						</div>
+						<button class="btn btn3">Получить скидку</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="drop-downs" class="mysection2">
+		<div class="container">
+			<h2 class="title">ЧАСТО ЗАДАВАЕМЫЕ ЗОПРОСЫ</h2>
+			<div class="under-border"></div>
+			<div class="qusestions-answers">
+				<div class="accordion" id="accordionExample">
+					<!-- Card-1 -->
+					<div class="card">
+						<div class="card-header" id="headingOne">
+							<h2 class="mb-0">
+								<button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+									data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									Вопрос: После окончания учёбы дают ли новые права?
+								</button>
+							</h2>
+						</div>
+
+						<div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+							data-parent="#accordionExample">
+							<div class="card-body">
+								Ответ: Да, вы получите новые водительские права
+							</div>
+						</div>
+					</div>
+					<!-- Card-2 -->
+					<div class="card">
+						<div class="card-header" id="headingTwo">
+							<h2 class="mb-0">
+								<button class="btn btn-link btn-block text-left collapsed" type="button"
+									data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+									aria-controls="collapseTwo">
+									Вопрос: На каких языках ведутся уроки в автошколе?
+								</button>
+							</h2>
+						</div>
+						<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+							data-parent="#accordionExample">
+							<div class="card-body">
+								Ответ: В наших автошколах уроки проходят в двух языках: на русском и узбекском
+							</div>
+						</div>
+					</div>
+					<!-- Card-3 -->
+					<div class="card">
+						<div class="card-header" id="headingThree">
+							<h2 class="mb-0">
+								<button class="btn btn-link btn-block text-left collapsed" type="button"
+									data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+									aria-controls="collapseThree">
+									Вопрос: С какого возраста можно начать обучение в автошколе?
+								</button>
+							</h2>
+						</div>
+						<div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+							data-parent="#accordionExample">
+							<div class="card-body">
+								Ответ: По постановлению Кабинета Министров РУз граждане достигшие 16 лет могут получить
+								права  на управление мототранспортом. Граждане достигшие 18 лет, могут получить права на
+								управление легковых и грузовых автомашин. Граждане достигшие 21 лет, могут получить
+								права на  управление автобусами и такси (транспорты для перевозки пассажиров) <br>
+								Категория A - Обучение можете начать с 18 лет.
+							</div>
+						</div>
+					</div>
+					<!-- Card-4 -->
+					<div class="card">
+						<div class="card-header" id="headingFour">
+							<h2 class="mb-0">
+								<button class="btn btn-link btn-block text-left collapsed" type="button"
+									data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+									aria-controls="collapseFour">
+									Вопрос: Сколько длится обучение?
+								</button>
+							</h2>
+						</div>
+						<div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+							data-parent="#accordionExample">
+							<div class="card-body">
+								Ответ: Обучение в среднем рассчитано на 3 месяца. Если у ученика поменяются планы, то
+								можем рассмотреть продление курса до 6 месяцев, так как договор составляется на 6
+								месяцев.
+							</div>
+						</div>
+					</div>
+					<!-- Card-5 -->
+					<div class="card">
+						<div class="card-header" id="headingFive">
+							<h2 class="mb-0">
+								<button class="btn btn-link btn-block text-left collapsed" type="button"
+									data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
+									aria-controls="collapseFive">
+									Вопрос: Можно ли пройти экзамен в ГИБДД без обучения в автошколе?
+								</button>
+							</h2>
+						</div>
+						<div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+							data-parent="#accordionExample">
+							<div class="card-body">
+								Ответ: Такой возможности нет, она существовала ранее, до 2014 года.
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 logotip mycenter justify-content-center">
+					<!-- <img src="img/1.Blog/logo.png" alt=""> -->
+					Logo
+				</div>
+				<div class="col-md-6 mycenter justify-content-center my-5 my-md-0">
+					<div class="dark-menu">
+						<a href="#">Главная</a>
+						<a href="#">О нас</a>
+						<a href="#">Преимущества</a>
+						<a href="#">Курсы</a>
+						<a href="#">Записаться</a>
+						<a href="#">FAQ</a>
+						<a href="#">Контакты</a>
+					</div>
+				</div>
+				<div class="col-md-3 sm mycenter justify-content-center">
+					<a href="#"><i class="fab fa-telegram-plane"></i></a>
+					<a href="#"><i class="fab fa-whatsapp"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+				</div>
+			</div>
+			<p class="copyright"> <i class="far fa-copyright"></i>2020 Все права защищены</p>
+		</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+	</script>
+	<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="js/smoothscroll.js"></script>
+	<script src="js/script.js"></script>
+
+</body>
+
+</html>
